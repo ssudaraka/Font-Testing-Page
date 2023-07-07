@@ -52,14 +52,14 @@ $(document).ready(function(){
 		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>
 	  </div>
 	  
-	  <!-- Tamil Text (Content injected via Javascript) -->
-	  <div id="tamiltext" style="width: 920px;">
+	  <!-- Sinhala Text (Content injected via Javascript) -->
+	  <div id="sinhalatext" style="width: 920px;">
 			<div class="textsettingCol1"></div>
 			<div class="textsettingCol2"></div>
 	  </div>
 
-	  <!-- Tamil + Latin Text (Content injected via Javascript) -->
-	  <div id="talatext" style="width: 920px;">
+	  <!-- Sinhala + Latin Text (Content injected via Javascript) -->
+	  <div id="silatext" style="width: 920px;">
 			<div class="textsettingCol1"></div>
 			<div class="textsettingCol2"></div>
 	  </div>
@@ -87,12 +87,12 @@ $(document).ready(function(){
 
 	  <!-- Lettering Sheet -->
 	  <div id="lettering">
-	  	<?php include("includes/tamil/lettering.php"); ?>			
+	  	<?php include("includes/Sinhala/lettering.php"); ?>			
 	  </div>
 
 	  <!-- Kerning -->
 	  <div id="kern">
-	  	<?php include("includes/tamil/kerning.php"); ?>			
+	  	<?php include("includes/Sinhala/kerning.php"); ?>			
 	  </div>
 
 	  <!-- Hinting (Content injected via constants.js) -->
